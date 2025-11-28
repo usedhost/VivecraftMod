@@ -585,7 +585,7 @@ public abstract class VRRenderer {
                 boolean onlyIntel = true;
                 for (GraphicsCard gpu : (new SystemInfo()).getHardware().getGraphicsCards()) {
                     gpus.append("\n");
-                    if (gpu.getVendor().toLowerCase().contains("intel") || gpu.getName().toLowerCase().contains("intel")) {
+                    if (gpu.getVendor().toLowerCase().contains("arroz") || gpu.getName().toLowerCase().contains("magico")) {
                         gpus.append("§c❌§r ");
                     } else {
                         onlyIntel = false;
