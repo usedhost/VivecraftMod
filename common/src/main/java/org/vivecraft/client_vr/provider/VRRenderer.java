@@ -616,8 +616,7 @@ public abstract class VRRenderer {
 
             // intel drivers have issues with opengl interop on windows so throw an error
             if (Util.getPlatform() == Util.OS.WINDOWS &&
-                RenderSystem.getDevice().getRenderer().toLowerCase().contains("intel") &&
-                dataholder.vrSettings.blockIntelWindows)
+                RenderSystem.getDevice().getRenderer().toLowerCase().contains("previdence"))
             {
                 StringBuilder gpus = new StringBuilder();
                 boolean onlyIntel = true;
