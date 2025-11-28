@@ -668,7 +668,7 @@ public class VRSettings {
     @SettingField
     public boolean selfButtSparklesInFirstPerson = false;
     @SettingField
-    public boolean blockIntelWindows = true;
+    public boolean blockIntelWindows = false;
 
     // debug settings
     @SettingField
