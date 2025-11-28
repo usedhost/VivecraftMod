@@ -3,6 +3,7 @@ name: curseforge-modrinth-publish
 run-name: Posting jars on Curseforge and Modrinth
 
 on:
+  workflow_dispatch:
   release:
     types: [ published ]
 
